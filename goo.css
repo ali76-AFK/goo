@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: #333;
+}
+
+.roll {
+    background: rgb(80, 79, 79);
+}
+
+.foto {
+    color: wheat;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(138, 130, 130);
+    position: absolute;
+    top: 20px;
+    left:40px;
+}
+
+.list {
+    display: block;
+    
+    align-items: left;
+    position: absolute;
+    top: 30%;
+    left: 3rem;
+    background: rgb(77, 93, 95);
+    padding: 10px;
+    margin: 40px;
+}
+
+.p1 {
+    background: url('k1.jpeg') center/cover no-repeat;
+    width: 500px;
+    height: 100vh;
+    padding: 5px;
+    margin: 5px;
+    transition: opacity ease-in-out;
+}
+
+.p3 {
+    background: url('k5.jpeg') center/cover no-repeat;
+    width: 500px;
+    height: 100vh;
+    padding: 5px;
+    margin: 5px;
+    transition: opacity ease-in-out;
+}
+
+.p2 {
+    background: url('k7.jpeg') center/cover no-repeat;
+    width: 500px;
+    height: 100vh;
+    padding: 5px;
+    margin: 5px;
+    transition: opacity ease-in-out;
+}
+
+.like {
+    width: 2rem;
+    height: 1rem;
+    margin: 4px;
+    padding: 1rem;
+    color: wheat;
+    background: rgb(167, 85, 85);
+    border: rgb(145, 141, 141);
+    position: relative;
+    top: 80%;
+    left:30%;
+    border-radius: 5px;
+}
+
+.diss {
+    width: 2rem;
+    height: 1rem;
+    margin: 4px;
+    padding: 1rem;
+    color: rgb(199, 173, 126);
+    background: rgb(109, 69, 69);
+    border: rgb(116, 114, 114);
+    position: relative;
+    top: 75%;
+    left:70%;
+    border-radius: 5px;
+}
+
+.like:hover {
+    background: rgb(116, 114, 114);
+    color: rgb(109, 69, 69);
+    box-shadow: teal;
+    cursor: pointer;
+}
+
+.diss:hover {
+    background: rgb(116, 114, 114);
+    color: rgb(109, 69, 69);
+    box-shadow: teal;
+    cursor: pointer;
+}
+
+.r{
+    padding: 2rem;
+    background: rgb(192, 142, 142);
+    border-radius: 50%;
+}
+
+.r:hover {
+    padding: 1.5rem;
+    background: rgb(163, 130, 130);
+    transition: 0.5 ease-in-out;
+}
+
+.point1 {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    transition: opacity 0.5 ease-in-out;
+}
+
+.point2 {
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    transition: opacity 0.5 ease-in-out;
+}
+
+.point3 {
+    position: absolute;
+    top: 60px;
+    right: 150px;
+    transition: opacity 0.5 ease-in-out;
+}
+
+.point4 {
+    position: absolute;
+    top: 160px;
+    right: 150px;
+    transition: opacity 0.5 ease-in-out;
+}
+
+.point5 {
+    position: absolute;
+    top: 300px;
+    right: 90px;
+    transition: opacity 0.5 ease-in-out;
+}
